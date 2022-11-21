@@ -27,6 +27,11 @@ public class Calculator {
                 int mult = num1*num2;
                 System.out.println("num1-num2"+mult);
                 break;
+            case 4:
+                int div = num1/num2;
+                System.out.println("num1/num2"+div);
+                break;
+
 
 
 
