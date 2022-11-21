@@ -40,6 +40,9 @@ public class Calculator {
                     {
                         System.out.println("num2 is zero");
                     }
+                    finally {
+                        System.out.println("program reached the line");
+                    }
 
                     break;
                 case 5:
