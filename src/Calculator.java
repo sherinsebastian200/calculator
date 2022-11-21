@@ -31,8 +31,16 @@ public class Calculator {
                     System.out.println("num1-num2" + mult);
                     break;
                 case 4:
-                    int div = num1 / num2;
-                    System.out.println("num1/num2" + div);
+                    try{
+                        int div = num1 / num2;
+                        System.out.println("num1/num2" + div);
+
+                    }
+                    catch (ArithmeticException e)
+                    {
+                        System.out.println("num2 is zero");
+                    }
+
                     break;
                 case 5:
                     break;
