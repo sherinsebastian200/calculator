@@ -18,7 +18,16 @@ public class Calculator {
             case 1:
                 int result = num1+num2;
                 System.out.println("num1+num2 =" +result);
+                break;
+            case 2:
+                int sub = num1-num2;
+                System.out.println("num1-num2 ="+sub);
+                break;
+
+
+
             }
+
         }
 
 }
