@@ -15,6 +15,9 @@ public class Calculator {
 
         switch(operation)
         {
+            case 1:
+                int result = num1+num2;
+                System.out.println("num1+num2 =" +result);
             }
         }
 
