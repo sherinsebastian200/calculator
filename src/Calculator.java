@@ -31,6 +31,10 @@ public class Calculator {
                 int div = num1/num2;
                 System.out.println("num1/num2"+div);
                 break;
+            case 5:
+                break;
+            default:
+                System.out.println("Invalid input");
 
 
 
